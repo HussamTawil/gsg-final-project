@@ -30,10 +30,10 @@ body{
     text-shadow: 0 0 35px rgb(75, 246, 189) ;
 }
 #result{
-    color: yellow;
+    color: rgb(236, 236, 45);
     font-size: 3rem;
     text-shadow: 0 0 10px hsl(75, 87%, 66%),
-    0 0 40px hsl(75, 87%, 66%), 0 0 80px hsl(75, 87%, 66%);
+    0 0 40px hsl(80, 82%, 78%), 0 0 80px hsl(75, 87%, 66%);
 
 }
 .butn> button{
