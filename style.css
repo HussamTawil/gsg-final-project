@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(img/pexels-piccinng-3075993.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, sans-serif;
+
+}
+.choices{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.choices h2{
+    color: rgb(0, 253, 105);
+    font-size: 3rem;
+    text-shadow: 0 0 35px rgb(75, 246, 189) ;
+}
+#result{
+    color: yellow;
+    font-size: 3rem;
+    text-shadow: 0 0 10px hsl(75, 87%, 66%),
+    0 0 40px hsl(75, 87%, 66%), 0 0 80px hsl(75, 87%, 66%);
+
+}
+.butn> button{
+    width: 150px;
+    height: 40px;
+    background: hsla(170, 98%, 51%, 0.677);
+    border: none;
+    box-shadow: 0 0 25px inset hsl(205, 55%, 75%);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+.butn> button:hover{
+    color:  rgb(255, 237, 255);
+    background: rgb(237, 16, 241);
+    box-shadow: rgb(162, 0, 164),  0 0 80px rgb(162, 0, 164);
+    cursor: pointer;
+
+}
